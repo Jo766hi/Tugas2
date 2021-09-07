@@ -1,0 +1,71 @@
+
+body {
+       background:#07132b ;
+}
+
+p, div, form, input, select {
+		padding: 0;
+		margin: 0;
+      	outline: none;
+      	font-family: Roboto, Arial, sans-serif;
+      	font-size: 15px;
+      	color: #666;
+      	line-height: 25px;
+}		
+#bg_white {
+   	background: #fbfbfb;
+   	border-radius: 8px;
+   	box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.65);
+   	height: 630px;
+   	margin: 6rem auto 8.1rem auto;
+	width: 400px;
+}
+form {
+      width: 90%;
+      border-radius: 8px;
+      padding: 20px;
+}
+
+.form-content {
+	font:normal 12px Verdana,Sans-Serif;
+  	border:1px solid grey;
+  	background-color:#fafafa;
+  	padding:2px;
+  	border-radius: 10px;
+  	transition: background-color 0.5s;
+}
+
+.form-content:hover,
+	textarea:focus {
+  background-color:#d9d6ce;
+}
+
+.isian label:hover, .multiselection input:hover , .multiselection label:hover  {
+      color: #095484;
+}
+.multiselection{
+      position: relative;
+      margin: 10px 0;
+}
+.button{
+	border-radius: 21px;
+	border: none;
+	box-shadow: 0px 1px 8px #808080;
+	height: 30px;
+	width: 120px;
+	margin: 0 auto;
+	margin-top: 10px;
+	cursor: pointer;
+	transition:  0.25s;
+
+}
+
+.button:hover{
+box-shadow: 0px 1px 18px #808080;
+background-color:  #b3e6ff;
+
+}
+
+.hobi {
+	padding-top: 10px;
+}

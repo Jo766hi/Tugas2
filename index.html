@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="bg_white">
+ 		<form method="post" action="submit.php">
+			<fieldset> <legend><h2>Registrasi</h2></legend>
+					<div class="isian">
+						<p><label for="usname">Username</label></p>
+ 						<input 
+ 						type="text" 
+ 						name="usname" 
+ 						id="usname" 
+ 						class="form-content"
+ 						required>
+
+ 						<p><label for="password">Password</label></p>
+ 						<input 
+ 						type="password" 
+ 						name="Password" 
+ 						id="password" 
+ 						class="form-content"
+ 						required>
+ 
+ 						<p><label for="email" >Email</label></p>
+ 						<input 
+ 						type="email" 
+ 						name="email" 
+ 						id="email" 
+ 						class="form-content" 
+ 						required>
+
+ 						<p><label for="NIM">NIM</label></p>
+ 						<input 
+ 						type="number" 
+ 						name="NIM" 
+ 						id="NIM" 
+ 						class="form-content"
+ 						required>
+ 	</div>
+
+	<div class="multiselection">
+					<div class="kelas">
+ 						<p><label for="kelas">Kelas</label><br></p>
+ 						<label><input 
+ 						type="radio" 
+ 						name="Kelas" 
+ 						value="KOM_A"> Kom A
+ 						</label>
+
+						<label><input 
+ 						type="radio" 
+ 						name="Kelas" 
+ 						value="KOM_B"> Kom B
+ 						</label>
+
+ 						<label><input 
+ 						type="radio" 
+ 						name="Kelas" 
+ 						value="KOM_C"> Kom C
+ 						</label>
+ 					</div>
+
+					<div class="Agama">
+ 						<p><label>Agama <br></label></p>
+						<select name="agama">
+ 	   						<option value="islam"> Islam </option>
+ 	   						<option value="kristen"> Kristen </option>
+ 	   						<option value="buddha"> Buddha </option>
+ 							<option value="hindu"> Hindu </option>
+ 						</select>
+ 	
+ 					</div>
+
+					<div class="hobi" style="">
+ 					<p><label>Hobi</label></p>
+						<label>
+ 						<input 
+ 						type="checkbox" 
+ 						name="hobi" 
+ 						value="berenang">Berenang</label>
+ 					<BR>
+ 						<label>
+						<input 
+						type="checkbox" 
+						name="hobi" 
+						value="badminton">Badminton</label>
+					<BR>
+						<label>
+						<input 
+						type="checkbox" 
+						name="hobi" 
+						value="futsal">Futsal</label>
+					<BR>
+						<label>
+						<input 
+						type="checkbox" 
+						name="hobi" 
+						value="tennis_meja">Tennis Meja</label>
+ 		
+					</div>
+	</div>
+					<div>
+						<input type="reset" name="reset" class="button" style="margin-right: 85px;">
+ 						<input type="submit" name="submit" class="button">
+ 					</div>	
+
+ 			</fieldset>
+ 		</form>
+	
+</body>
+</html>
